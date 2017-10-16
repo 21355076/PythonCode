@@ -1,0 +1,80 @@
+Question 1: Which of the following conditions are true, if a = 13 and b = 14 ?
+
+a)	a + 1 <= b  
+b)	a + 1 >= b 
+c)	a + 1 != b
+
+a)	14 <= 14 >>> True
+b)	14 >= 14 >>> True
+c)	14 != 14 >>> False
+
+Question 2:Explain the mistake(s) in the following code:
+
+	myage = input(How old are you)
+	Print(Hi there, you are +myage +old)
+  
+  Input:
+  myage = input("How old are you")
+#line 1(P != p) and line 1and3(" " missing) and  line 3 ( " + myage + ")
+print("Hi there, you are  " + myage + " years old")
+
+Output:
+How old are you5
+Hi there, you are  5 years old
+>>> 
+
+Question 3:Explain why the following code won’t really add the two “numbers”:
+
+	number1 = input("Enter first number")
+	number2 = input("Enter second number")
+	result = number1 + number2
+	print(“The result is ”+result)
+
+Input:
+number1 = input("Enter first number")
+number2 = input("Enter second number")
+result = int(number1) + int(number2)
+print(result)
+
+Output:
+Enter first number5
+Enter second number5
+10
+>>> 
+
+Question 4:Write code to calculate the average of: {3, 11, 78, 112, 4, 18} in one single line of code. 
+Input:
+print((3+4+11+18+78+112)/6)
+Output:
+37.666666666666664
+>>> 
+
+Question5: Write a program that asks the user for an integer number and then prints out the remainder after the number is divided by 7.
+
+Input:
+
+number = int(input("Enter a number")
+print( number % 7 )
+
+Output:
+
+Enter number56
+0
+>>> 
+Output 2:
+
+Enter number74
+4
+>>>
+
+Question 6:Expand the above program (5.) by also printing out how often the number 7 “fits” into the number the user entered. 
+
+Input:
+number = int(input("Enter number"))
+result = number % 7
+print(number//7 )
+
+Output:
+Enter number99
+14
+>>> 
