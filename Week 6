@@ -1,0 +1,62 @@
+Question 1: What is the error in this statement?
+	if scoreA = scoreB :  
+        		print("Tie")
+#the error in the statment is the character ":" that isnt seen in the program as a something that should be run.
+and line 3 doesnt apply anything since the previous mistake doesnt take for account line 3.
+
+Question 2: Supply a condition in this if statement to test if the user entered a “Y”:
+	userInput = input("Enter Y to quit.")
+	if . . . // supply statement
+		print("Goodbye")    // if the user entered “Y”
+
+userInput = input("Enter Y to quit.")
+if userInput = Y: #then end program with a print statment.
+             print("Goodbye")
+             
+Question 3: Find the errors in the following if statements, correct where necessary.  To be finished...
+
+A)if x > 0 then :                           
+    	print(x)
+      
+B) if 1 + x > x ** sqrt(2) :
+     	y = y + x
+     
+C)if x = 1 :
+    	y += 1
+      
+D) letterGrade = "F"
+    if grade >= 90 :
+	letterGrade = "A"
+    if grade >= 80 :
+	letterGrade = "B"
+    if grade >= 70 :
+	letterGrade = "C"
+    if grade >= 60 :
+	letterGrade = "D"
+      
+Question 4: Using the flow chart below, construct the if, elif, else control structure necessary to implement the flow chart. 
+Complete your program to describe the earthquake by asking the user to enter a magnitude on the Richter scale 
+and print out the effect that magnitude would have had (e.g. “Many buildings destroyed”).
+
+[...]
+
+
+Question 5: Write a program that sets a password as “changeme” and
+asks the user to enter the password and keeps asking until the correct password is entered and then says “Accepted”. 
+The program should count how many attempts the user has taken and tell them after they have been accepted. 
+
+Extra Challenge: 
+If the user takes more than 5 attempts the program should say, 
+“Access denied, please press enter to exit and contact security to reset your password”
+
+[...]
+
+Question 6/7: What do the following nested loops display?  Hand trace. 
+	for i in range(3) :
+ 
+[...]
+
+Question 7/8: Write a program that will generate a table to print powers of the first 5 numbers.  
+Your output should be similar to the sample given below. 
+
+[...]
